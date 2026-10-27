@@ -39,6 +39,7 @@ export interface ICassandraConfig {
   },
   contactPoints: Array<string>,
   keyspace?: string,
+  localDataCenter?: string,
   port?: number,
   queryOptions?: QueryOptions
 }
